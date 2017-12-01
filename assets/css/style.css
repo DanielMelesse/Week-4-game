@@ -1,1 +1,29 @@
 /* this is css fiel  */
+h1 {
+	text-align: center;
+	color: blue;
+}
+
+h3 {
+	text-align: center;
+	color: blue;
+}
+.gameRule {
+	margin: 10px;
+}
+
+.numToGuess {
+	background: lightgray;
+	width: 33%;
+	height: 200px;
+	float: left;
+}
+
+.newme{
+	text-align: center;
+} */
+
+img {
+	width: 30px;
+	height: 40px;
+}
