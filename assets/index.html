@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            Assignment Two Cyestals Collector Game
+        </title>
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+	   
+    </head>
+    
+    <body >
+        <div id="main"> </div>
+
+        <div class="gameRule">
+            <h4>Game Rule</h4>
+            <p> Each Crystal button assigned to number that will added up to be the gussing number</p>
+            <p> Try to guess which crystal button has the right value</p>
+            <p> The game is best of three</p>
+
+        </div>
+
+        <div>
+            <h4>Number to guess: <span id="numToGuess"></span></h4>
+        </div>
+        <div>
+            <h4>Number you have guessed: <span id="numYouGuessed"></span></h4>
+        </div>
+        <div>
+            <h4>Wins: <span id="wins"></span></h4>
+        </div>
+        <div>
+            <h4>Losses: <span id="losses"></span></h4>
+        </div>
+        <button id="button1" value="addButtonValue" onclick="addButtonValue()"><img src="assets/image/crystal.jpeg"></button>
+        <button id="button2" value="addButtonValue" onclick="addButtonValue()"><img src="assets/image/crystal.jpeg"> </button>
+        <button id="button3" value="addButtonValue" onclick="addButtonValue()"> <img src="assets/image/crystal.jpeg"></button>
+        <button id="button4" value="addButtonValue" onclick="addButtonValue()"><img src="assets/image/crystal.jpeg"> </button>
+
+    <script src="assets/javascript/game.js"></script>
+    </body>    
+</html>
